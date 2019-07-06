@@ -6,12 +6,28 @@ class AddContact extends Component {
   state = {
     name: '',
     email: '',
-    phone: ''
+    phone: '',
+    errors: {}
   };
   onChange = e => this.setState({ [e.target.name]: e.target.value });
   onSubmit = (dispatch, e) => {
     e.preventDefault();
     const { name, email, phone } = this.state;
+
+    // check errors
+    if (name === '') {
+      this.setState({ errors: { name: 'Name is required.' } });
+      return;
+    }
+    if (email === '') {
+      this.setState({ errors: { email: 'E-mail is required.' } });
+      return;
+    }
+    if (phone === '') {
+      this.setState({ errors: { phone: 'Phone is required.' } });
+      return;
+    }
+
     const newContact = {
       id: uuid(),
       name,
@@ -22,11 +38,12 @@ class AddContact extends Component {
     this.setState({
       name: '',
       email: '',
-      phone: ''
+      phone: '',
+      errors: {}
     });
   };
   render() {
-    const { name, email, phone } = this.state;
+    const { name, email, phone, errors } = this.state;
 
     return (
       <Consumer>
@@ -43,6 +60,7 @@ class AddContact extends Component {
                     value={name}
                     placeholder="Enter Name"
                     onChange={this.onChange}
+                    error={errors.name}
                   />
                   <TextInputGroup
                     label="Email"
@@ -51,6 +69,7 @@ class AddContact extends Component {
                     type="email"
                     placeholder="Enter Email"
                     onChange={this.onChange}
+                    error={errors.email}
                   />
                   <TextInputGroup
                     label="Phone"
@@ -58,6 +77,7 @@ class AddContact extends Component {
                     value={phone}
                     placeholder="Enter Phone"
                     onChange={this.onChange}
+                    error={errors.phone}
                   />
 
                   <input
