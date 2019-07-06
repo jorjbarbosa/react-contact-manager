@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/reat-contact-manager/static/js/main.4a75db41.chunk.js",
-    "main.js.map": "/reat-contact-manager/static/js/main.4a75db41.chunk.js.map",
-    "runtime~main.js": "/reat-contact-manager/static/js/runtime~main.db13d867.js",
-    "runtime~main.js.map": "/reat-contact-manager/static/js/runtime~main.db13d867.js.map",
-    "static/css/2.0624914a.chunk.css": "/reat-contact-manager/static/css/2.0624914a.chunk.css",
-    "static/js/2.02db7d67.chunk.js": "/reat-contact-manager/static/js/2.02db7d67.chunk.js",
-    "static/js/2.02db7d67.chunk.js.map": "/reat-contact-manager/static/js/2.02db7d67.chunk.js.map",
-    "index.html": "/reat-contact-manager/index.html",
-    "precache-manifest.c044cb72f2aa69ba856615d810896093.js": "/reat-contact-manager/precache-manifest.c044cb72f2aa69ba856615d810896093.js",
-    "service-worker.js": "/reat-contact-manager/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/reat-contact-manager/static/css/2.0624914a.chunk.css.map"
+    "main.js": "/react-contact-manager/static/js/main.d1fbf179.chunk.js",
+    "main.js.map": "/react-contact-manager/static/js/main.d1fbf179.chunk.js.map",
+    "runtime~main.js": "/react-contact-manager/static/js/runtime~main.f3ab48b1.js",
+    "runtime~main.js.map": "/react-contact-manager/static/js/runtime~main.f3ab48b1.js.map",
+    "static/css/2.0624914a.chunk.css": "/react-contact-manager/static/css/2.0624914a.chunk.css",
+    "static/js/2.02db7d67.chunk.js": "/react-contact-manager/static/js/2.02db7d67.chunk.js",
+    "static/js/2.02db7d67.chunk.js.map": "/react-contact-manager/static/js/2.02db7d67.chunk.js.map",
+    "index.html": "/react-contact-manager/index.html",
+    "precache-manifest.6708c009cdd95055763dea456929c4c1.js": "/react-contact-manager/precache-manifest.6708c009cdd95055763dea456929c4c1.js",
+    "service-worker.js": "/react-contact-manager/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/react-contact-manager/static/css/2.0624914a.chunk.css.map"
   }
 }
