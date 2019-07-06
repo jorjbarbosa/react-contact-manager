@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Provider>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Header />
             <div className="container">
